@@ -55,6 +55,8 @@ with open(file_in, 'r') as f:
     for line in reader:
         temporary_list.append(line)
 
+# CHANGE THE FILE WITH INPUT FROM THE TERMINAL
+
 temporary_list[location_x][location_y] = command_change
 
 if action == "csv":
